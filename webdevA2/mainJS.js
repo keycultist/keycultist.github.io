@@ -13,14 +13,13 @@ function slideRight() {
 }
 
 const RightGalleryButton = document.getElementById("RightButton");
-const LeftGalleryButton = document.getElementById("LeftButton");
 const parentDiv = document.getElementById('MainContentTwo');
 const innerTitleDiv = document.getElementsByClassName("TitleText")
 
 if (RightGalleryButton != null) {
         RightGalleryButton.addEventListener('click', function() {
         slideRight()
-        innerTitleDiv.textContent = "The Great Skate Renaissance"
+        innerTitleDiv.innerHTML = "The Great Skate Renaissance"
     });
 }
 
@@ -62,6 +61,7 @@ if (RightGalleryButton != null) {
   }
   
   resizeCanvas();
+
 
 
 
