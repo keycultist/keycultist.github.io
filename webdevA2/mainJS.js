@@ -1,4 +1,4 @@
-var image_slide = new Array("images/historyofskate1.jpg", "simages/AndyAndersonWhatIsSkate.jpg");
+var image_slide = new Array("images/historyofskate1.jpg", "images/AndyAndersonWhatIsSkate.jpg");
 var image_length = image_slide.length;
 var image_current = -1;
 
@@ -62,5 +62,6 @@ if (RightGalleryButton != null) {
   }
   
   resizeCanvas();
+
 
 
