@@ -122,7 +122,6 @@
 
 #MainContentFull {
     animation: 1s ease-out 0s 1 slideInFromRight;
-    grid-column: 1 / -1;
     position: relative;
     background-color: rgb(132, 139, 235);
     height : 230px;
@@ -331,3 +330,4 @@
     animation: 1s ease-out 0s 1 SlideOutFromRight;
 
 }
+
